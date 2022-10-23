@@ -1,0 +1,61 @@
+#!/bin/bash
+echo ""
+clear
+echo ""
+echo -e ""
+echo ""
+echo ""
+echo -e ""
+echo -e " \e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m \e[95m SUBSCRIBE ME CHANNEL \e[0m"
+echo ""
+echo -e " \e[91m[\e[92m*\e[91m]\e[1;93m Subs My channel :\e[0m\e[1;36m https://youtube.com/channel/UCG_zgIRcf9wRnzsuMpz3aMQ  "
+echo ""
+echo ""
+echo ""
+read -p $'\e[1;40m\e[31m[\e[32m*\e[31m]\e[32m Subscribe to Complete ? \e[1;91m (Y/N) : \e[0m' option
+echo""
+echo""
+echo""
+if [[ $option == *'N'* ]]; then
+clear
+exit
+fi
+if [[ $option == *'n'* ]]; then
+clear
+exit
+fi
+clear
+echo ""
+echo -e " \e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m Installing Hack fb Tool Please Wait....  \e[0m"
+echo -e ""
+clear
+echo ""
+echo ""
+echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m Installing Hackfb tool  Please Wait....  \e[0m"
+echo ""
+echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   ----------------------------------------  \e[1;91m\e[0m'
+echo -e $'\e[1;96m\e[0m\e[1;77m\e[0m\e[1;96m\e[0m\e[1;91m  !!         DOWNLOAD REQUIREMENTS         !!\e[0m'
+echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m   ----------------------------------------- \e[1;91m\e[0m'
+echo ""
+echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m \e[95m X ArynzClem \e[0m"
+echo ""
+sleep 2
+termux-setup-storage
+apt-get update -y
+apt-get upgrade -y
+pip install bs4
+pip install requests
+pkg install php
+pip install php
+clear
+echo '
+      ---------------------------------   
+    !!    Installation Successfull     !!  
+      ---------------------------------   ' | lolcat
+sleep 2
+clear
+echo
+xdg-open https://youtube.com/channel/UCG_zgIRcf9wRnzsuMpz3aMQ
+sleep 2
+bash hackcam.sh
+
